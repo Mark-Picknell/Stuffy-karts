@@ -14,8 +14,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "stuffy-karts"
+rootProject.name = 'stuffy-karts'
 
-include(":app")
-include(":desktop")
-include(":game")
+include ':game'
+include ':desktop'
+include ':app'

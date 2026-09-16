@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+dependencies {
+    api "org.jmonkeyengine:jme3-core:${rootProject.ext.jmeVersion}"
+}
