@@ -1,0 +1,5 @@
+rootProject.name = "stuffy-karts"
+
+include(":app")
+include(":desktop")
+include(":game")
