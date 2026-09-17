@@ -18,3 +18,13 @@ dependencies {
 application {
     mainClass = 'com.picknell.game.stuffykarts.desktop.DesktopLauncher'
 }
+
+sourceSets {
+    main {
+        resources.srcDir rootProject.file('assets')
+    }
+}
+
+tasks.named('run') {
+    workingDir rootProject.projectDir
+}

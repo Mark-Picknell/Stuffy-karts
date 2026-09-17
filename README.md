@@ -8,16 +8,20 @@ The core mechanic is **Burden**: attacks can lodge in a kart instead of behaving
 
 ## Project layout
 
-- `game/` — shared jMonkeyEngine game code
+- `game/` — shared jMonkeyEngine gameplay code
 - `desktop/` — desktop launcher
 - `app/` — Android launcher
+- `assets/` — shared models, materials, textures, audio, scenes, and other runtime assets
 - `docs/` — design documents
+
+The platform launchers should stay thin. Gameplay belongs in `game/`; custom runtime assets belong in `assets/`.
 
 ## Requirements
 
 - JDK 17
 - Gradle 9.6+ (9.7 recommended)
 - Android SDK 36 for the Android app
+- jMonkeyEngine 3.9.0-stable
 
 ## Run
 
@@ -46,3 +50,5 @@ Commit the generated `gradlew`, `gradlew.bat`, and `gradle/wrapper/` files after
 ## Design
 
 See [`docs/game-design-document.md`](docs/game-design-document.md).
+
+**Pack it in. Let it rip.**
