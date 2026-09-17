@@ -9,6 +9,7 @@ lifecycleLivedata = "2.12.0-alpha03"
 lifecycleViewmodel = "2.12.0-alpha03"
 navigationFragment = "2.10.1"
 navigationUi = "2.10.1"
+jme3 = "3.9-Stable"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -23,3 +24,4 @@ androidx-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-
 androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
 androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
 androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+jme3-effects = { group = "org.jmonkeyengine", name = "jme3-effects" version.ref = "jme3" }
