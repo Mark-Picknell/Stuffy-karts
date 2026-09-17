@@ -175,7 +175,7 @@ Expelling:
 - Launches the accumulated payload backward
 - Creates an offensive rear-facing projectile spread
 - Applies a forward boost proportional to stored Burden
-- Returns the plush toward its normal unst stuffed state
+- Returns the plush toward its normal unstuffed state
 
 Core formula:
 
@@ -214,6 +214,15 @@ Important characteristics:
 ## 6. Racers, Signature Karts & Burden Buddies
 
 The racer names themselves are part of the game’s joke system. Each racer also has a signature kart and plush companion that reinforces their gameplay identity.
+
+The broader roster is intentionally structured as mirrored character pairings. Only two racers are planned to be playable in the first public build; the others can appear as locked or teaser slots so the game hints at a much larger league without requiring the whole roster to ship at once.
+
+Current pairing structure:
+
+- **P. EGG ↔ P. AWG** — carefree style and happy chaos ↔ bubbly performer energy
+- **D.I.C.K. ↔ T. HOT** — anxious precision ↔ gleeful chaos
+- **A. 2×P ↔ A. 2×M** — charismatic showman pro ↔ composed veteran pro
+- **D.ILF ↔ M.ILF** — planned veteran pairing; identities still in concept stage
 
 ### T. HOT
 
@@ -271,6 +280,25 @@ Amanda is the polished pro of the roster. She has seen every gimmick, every ridi
 
 ---
 
+### A. 2×P
+
+![A. 2xP / Adrian Pierce concept art](./adrian-pierce-a2xp-concept-art.png)
+
+**Name:** Adrian Pierce  
+**Extended name:** Adrian “Two-Pass” Pierce  
+**Nickname:** Two-Pass  
+**Display identity:** **A. 2×P**  
+**Signature kart:** **Double Apex**  
+**Burden Buddy:** **Loyal Pup Plushie**  
+**Features:** Balanced; stronger acceleration and corner-to-corner transitions, less planted at maximum speed  
+**Personality:** Polished, charismatic, competitive showman
+
+Adrian is Amanda's professional counterpart. He is every bit as practiced, but where Amanda makes precision look effortless and understated, Adrian wants the crowd to notice the line he just took. He is playful, confident, and competitive without losing the discipline expected from a top-tier racer.
+
+**Double Apex** is a responsive mid-weight chassis built around linking corners and recovering speed quickly between transitions. Its split-nose styling, short wheelbase, blue / white / gold livery, and paired visual motifs reinforce the **2×** identity. The Loyal Pup Plushie rides behind him as an enthusiastic co-pilot and grows progressively rounder as it absorbs Burden.
+
+---
+
 ### D.I.C.K.
 
 ![D.I.C.K. / Danny Kook concept art](./danny-kook-dick-concept-art.png)
@@ -311,6 +339,20 @@ Preston is the male racer who genuinely loves every ridiculous second of Stuffy 
 
 ---
 
+### Planned teaser racers
+
+#### D.ILF
+
+A planned male veteran racer intended to pair with M.ILF. The exact name, kart, Burden Buddy, stats, and visual identity remain open.
+
+#### M.ILF
+
+A planned female veteran racer intended to pair with D.ILF. The exact name, kart, Burden Buddy, stats, and visual identity remain open.
+
+These two slots can remain silhouettes or locked portraits in early builds until their designs are ready.
+
+---
+
 ## 7. Kart Roster
 
 Each kart should have an exaggerated silhouette and an immediately understandable gameplay identity.
@@ -341,6 +383,15 @@ A. 2×M's sleek, long-frame speedster.
 **Visual language:** Long, narrow, premium, low-slung  
 **Strength:** Straight-line speed and composure  
 **Weakness:** Less forgiving in tight courses
+
+### Double Apex
+
+A. 2×P's responsive transition-focused kart.
+
+**Role:** Balanced / corner-chain chassis  
+**Visual language:** Split nose, paired graphics, blue / white / gold, compact professional proportions  
+**Strength:** Acceleration, transition recovery, and linked-corner rhythm  
+**Weakness:** Less planted at absolute top speed than The Shaft
 
 ### The Penetrator
 
@@ -579,32 +630,36 @@ This screen is an opportunity for the game’s deadpan tone to shine.
 
 ## 14. Jam Scope
 
-The complete design currently includes more content than a tiny jam prototype needs.
+The complete design intentionally includes more characters and content than the first release will make playable.
 
-### Full designed roster
+### Teaser roster target
+
+The long-form character-select lineup is currently organized as four mirrored pairs:
+
+- **P. EGG ↔ P. AWG**
+- **D.I.C.K. ↔ T. HOT**
+- **A. 2×P ↔ A. 2×M**
+- **D.ILF ↔ M.ILF** — planned / not yet designed
+
+The non-playable racers should still appear in the first release as locked portraits, silhouettes, posters, paddock art, or other teaser material. This lets the world feel larger without turning the jam build into an eight-character production problem.
+
+### Designed racers
 
 - T. HOT / Tight Sizzle / Spice Imp Plushie
 - P. AWG / Rear-Loader / Bubble Heart Plushie
 - A. 2×M / The Shaft / Velvet Kitty Plushie
+- A. 2×P / Double Apex / Loyal Pup Plushie
 - D.I.C.K. / The Penetrator / Panic Gremlin Plushie
 - P. EGG / Twinkle Turn / Star Frog Plushie
 
-### Recommended playable MVP
+### First-release playable roster
 
-**Racers:**
+Only **two racers** are intended to be selectable in the initial release:
 
-- T. HOT
-- P. AWG
+- **T. HOT** / Tight Sizzle / Spice Imp Plushie
+- **P. AWG** / Rear-Loader / Bubble Heart Plushie
 
-**Karts:**
-
-- Tight Sizzle
-- Rear-Loader
-
-**Burden Buddies:**
-
-- Spice Imp Plushie
-- Bubble Heart Plushie
+The remaining designed racers are teaser content until expanded later.
 
 **Race tracks:**
 
@@ -630,7 +685,8 @@ Those three items alone prove the complete signature loop:
 
 Only after the prototype is fun should development add:
 
-- Remaining racers and karts
+- Unlock / playable support for teaser racers
+- D.ILF and M.ILF final designs
 - Unique Burden Buddy interaction animations
 - L.U.B.E.
 - B.U.T.T.
@@ -766,6 +822,7 @@ These are concept-pool names and are not part of the confirmed playable roster u
 - Should stored payload remain visually distinct inside / around the Buddy, or collapse into a simplified stuffed silhouette?
 - How much procedural deformation is useful before it becomes unnecessary scope?
 - Which announcer lines are funniest while still communicating useful gameplay information?
+- What final identities, karts, and Burden Buddies should D.ILF and M.ILF receive?
 
 ---
 
